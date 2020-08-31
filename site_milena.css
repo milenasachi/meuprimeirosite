@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #249276;
+  }
+#imagem_fundo {
+    background: url(fotos/pexels-polina-tankilevitch-3738388_plástico.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+#titulo_principal {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    padding: 220 50 0 50;
+}
+#subtitulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #249276;
+    font-size: 25px;
+    padding: 0 200 0 200;
+    text-shadow: 0 0 0.4em white, 0 0 0.4em white;
+}
+#botao_capa {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #249276;
+    text-align: center;
+    margin-top: 35px;
+}
+#marca_texto {
+    color: white;
+}
