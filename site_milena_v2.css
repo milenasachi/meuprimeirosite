@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #bf8e2c;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    padding: 20 10 20 10;
+    color: white;
+}
+li:hover {
+    background-color: #bf8e2c;
+}
+#imagem_fundo {
+    background: url("fotos/fundo_praia.PNG");
+    height: 95%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #bf8e2c;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+}
+#marcador {
+    background-color: white;
+}
+#botao_capa {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    text-decoration: none;
+    padding: 10 10 10 10;
+    border-radius: 10px;
+    color: black;
+}
+.icone {
+    width: 85px;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+.destaque {
+    background-color: #ecd7ac;
+}
+.imgeco {
+    width: 90%;
+    height: 30%;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 15%;
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+footer {
+    background-color: #bf8e2c;
+    float: left;
+    width: 100%;
+    height: 30%;
+    color: white;
+}
+#economia_circular {
+    width: 70%;
+}
+.botao_contato {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ecd7ac;
+    text-decoration: none;
+    padding: 10 10 10 10;
+    border-radius: 10px;
+    color: black;
+}
